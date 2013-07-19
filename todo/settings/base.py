@@ -17,7 +17,7 @@ def get_env_variable(var_name):
         raise ImproperlyConfigured(error_msg)
 
 
-PROJECT_ROOT = Path(__file__).ancestor(2)
+PROJECT_ROOT = Path(__file__).ancestor(3)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
